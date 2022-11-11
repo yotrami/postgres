@@ -13,7 +13,7 @@ jobs:
           command: |
             docker run -e CI=true hello-world:latest
             docker run -e CI=true ulminase/postgres:latest
-      ##################
+      #################
   java:
       resource_class: small
       docker:
